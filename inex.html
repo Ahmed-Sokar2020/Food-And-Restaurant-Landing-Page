@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Google Fonts CDN Link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;500&
+    family=Roboto:wght@100;300;400;500&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome CDN Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    
+    <!-- aos CSS CDN Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    
+    <!-- Custom CSS File Link -->
+    <link rel="stylesheet" href="css/style.css">
+    
+    <title>Food And Restaurant Project</title>
+</head>
+
+<body>
+
+    <!-- Header Section Starts -->
+    <header>
+        
+        <div class="loge">
+            <a href="" ><img src="images/logo-img.png" alt="Logo"></a>
+        </div>
+
+        <!-- menu-bar Icon in appear Small Screens -->
+        <div id="menu-bar" class="fa-solid fa-apple-whole"></div>
+
+        <nav class="navbar">
+            
+            <ul class="links">
+                <li><a class="active" href="#home">home</a></li>
+                <li><a href="#about">about</a></li>
+                <li><a href="#menu">menu</a></li>
+                <li><a href="#collections">collections</a></li>
+                <li><a href="#gallery">gallery</a></li>
+                <li><a href="#contact">contact</a></li>
+            </ul>
+        </nav>
+        
+        <!-- Toggle Dark and Light Mode -->
+        <div id="dark-mode">
+            <input type="checkbox" id="darkmode-toggle" />
+            <label for="darkmode-toggle">
+                <svg
+                    version="1.1"
+                    class="sun"
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    x="0px"
+                    y="0px"
+                    viewBox="0 0 496 496"
+                    style="enable-background: new 0 0 496 496"
+                    xml:space="preserve"
+                >
+                    <rect
+                    x="152.994"
+                    y="58.921"
+                    transform="matrix(0.3827 0.9239 -0.9239 0.3827 168.6176 -118.5145)"
+                    width="40.001"
+                    height="16"
+                    />
+                    <rect
+                    x="46.9"
+                    y="164.979"
+                    transform="matrix(0.9239 0.3827 -0.3827 0.9239 71.29 -12.4346)"
+                    width="40.001"
+                    height="16"
+                    />
+                    <rect
+                    x="46.947"
+                    y="315.048"
+                    transform="matrix(0.9239 -0.3827 0.3827 0.9239 -118.531 50.2116)"
+                    width="40.001"
+                    height="16"
+                    />
+
+                    <rect
+                    x="164.966"
+                    y="409.112"
+                    transform="matrix(-0.9238 -0.3828 0.3828 -0.9238 168.4872 891.7491)"
+                    width="16"
+                    height="39.999"
+                    />
+
+                    <rect
+                    x="303.031"
+                    y="421.036"
+                    transform="matrix(-0.3827 -0.9239 0.9239 -0.3827 50.2758 891.6655)"
+                    width="40.001"
+                    height="16"
+                    />
+
+                    <rect
+                    x="409.088"
+                    y="315.018"
+                    transform="matrix(-0.9239 -0.3827 0.3827 -0.9239 701.898 785.6559)"
+                    width="40.001"
+                    height="16"
+                    />
+
+                    <rect
+                    x="409.054"
+                    y="165.011"
+                    transform="matrix(-0.9239 0.3827 -0.3827 -0.9239 891.6585 168.6574)"
+                    width="40.001"
+                    height="16"
+                    />
+                    <rect
+                    x="315.001"
+                    y="46.895"
+                    transform="matrix(0.9238 0.3828 -0.3828 0.9238 50.212 -118.5529)"
+                    width="16"
+                    height="39.999"
+                    />
+                    <path
+                    d="M248,88c-88.224,0-160,71.776-160,160s71.776,160,160,160s160-71.776,160-160S336.224,88,248,88z M248,392
+                            c-79.4,0-144-64.6-144-144s64.6-144,144-144s144,64.6,144,144S327.4,392,248,392z"
+                    />
+                    <rect x="240" width="16" height="72" />
+                    <rect
+                    x="62.097"
+                    y="90.096"
+                    transform="matrix(0.7071 0.7071 -0.7071 0.7071 98.0963 -40.6334)"
+                    width="71.999"
+                    height="16"
+                    />
+                    <rect y="240" width="72" height="16" />
+
+                    <rect
+                    x="90.091"
+                    y="361.915"
+                    transform="matrix(-0.7071 -0.7071 0.7071 -0.7071 -113.9157 748.643)"
+                    width="16"
+                    height="71.999"
+                    />
+                    <rect x="240" y="424" width="16" height="72" />
+
+                    <rect
+                    x="361.881"
+                    y="389.915"
+                    transform="matrix(-0.7071 -0.7071 0.7071 -0.7071 397.8562 960.6281)"
+                    width="71.999"
+                    height="16"
+                    />
+                    <rect x="424" y="240" width="72" height="16" />
+                    <rect
+                    x="389.911"
+                    y="62.091"
+                    transform="matrix(0.7071 0.7071 -0.7071 0.7071 185.9067 -252.6357)"
+                    width="16"
+                    height="71.999"
+                    />
+                </svg>
+                <svg
+                    version="1.1"
+                    class="moon"
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    x="0px"
+                    y="0px"
+                    viewBox="0 0 49.739 49.739"
+                    style="enable-background: new 0 0 49.739 49.739"
+                    xml:space="preserve"
+                >
+                    <path
+                    d="M25.068,48.889c-9.173,0-18.017-5.06-22.396-13.804C-3.373,23.008,1.164,8.467,13.003,1.979l2.061-1.129l-0.615,2.268
+                c-1.479,5.459-0.899,11.25,1.633,16.306c2.75,5.493,7.476,9.587,13.305,11.526c5.831,1.939,12.065,1.492,17.559-1.258v0
+                c0.25-0.125,0.492-0.258,0.734-0.391l2.061-1.13l-0.585,2.252c-1.863,6.873-6.577,12.639-12.933,15.822
+                C32.639,48.039,28.825,48.888,25.068,48.889z M12.002,4.936c-9.413,6.428-12.756,18.837-7.54,29.253
+                c5.678,11.34,19.522,15.945,30.864,10.268c5.154-2.582,9.136-7.012,11.181-12.357c-5.632,2.427-11.882,2.702-17.752,0.748
+                c-6.337-2.108-11.473-6.557-14.463-12.528C11.899,15.541,11.11,10.16,12.002,4.936z"
+                    />
+                </svg>
+            </label>
+        </div>
+
+    </header>
+    <!-- Header Section Ends -->
+
+
+    <!-- Home Section Starts -->
+    <section class="home" id="home">
+
+        <div class="content" data-aos="fade-right">
+            <h3>We serve delicious food<br> excellent service with a beautiful smile</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, sequi fugit? Atque 
+                accusantium ratione qui explicabo quis aut vitae similique cum obcaecati amet. Unde architecto,
+                iusto dolorem nisi quae inventore!</p>
+            <a href=""><button class="btn">get started</button></a>
+        </div>
+
+        <div class="image" data-aos="fade-up">
+            <img src="images/home-img.png" alt="image">
+        </div>
+
+    </section>
+    <!-- Home Section Ends -->
+
+
+    <!-- About Section Starts -->
+    <section class="about" id="about">
+
+        <div class="image" data-aos="fade-right"></div>
+
+        <div class="content" data-aos="fade-left">
+            <h3>about us</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi harum eveniet 
+                sunt. Placeat porro quo obcaecati iure omnis repellat excepturi libero, .</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi harum 
+                sunt. Placeat porro quo obcaecati iure omnis repellat excepturi libero, .</p>
+            <a href=""><button class="btn">learn more</button></a>            
+        </div>
+
+    </section>
+    <!-- About Section Ends -->
+
+
+    <!-- Menu Section Starts -->
+    <section class="menu" id="menu">
+
+        <h1 class="heading">our delicious <span>menu</span> </h1>
+
+        <ul class="list" data-aos="fade-down">
+            <li class="btn active" data-src="images/menu1.jpg">breakfast</li>
+            <li class="btn " data-src="images/menu2.jpg">lunch</li>
+            <li class="btn" data-src="images/menu3.jpg">dinner</li>
+            <li class="btn" data-src="images/menu4.jpg">dessert</li>
+        </ul>
+
+        <div class="row">
+
+            <div class="image" data-aos="fade-right">
+                <img id="menu-img" src="images/menu1.jpg" alt="image">
+            </div>
+
+            <div class="content" data-aos="fade-left">
+                <div class="info">
+                    <h3><span>01.</span>we are the best choice for you </h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit consectetur!</p>
+                </div>
+                <div class="info">
+                    <h3><span>02.</span>we are the best choice for you</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit consectetur!</p>
+                </div>
+                <div class="info">
+                    <h3><span>03.</span>we are the best choice for you</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit consectetur!</p>
+                </div>
+                <div class="info">
+                    <h3><span>04.</span>we are the best choice for you</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit consectetur!</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- Menu Section Ends -->
+    
+
+    <!-- Collections Section Starts -->
+    <section class="collections" id="collections">
+
+        <h1 class="heading">our <span>collections</span> foods</h1>
+
+        <div class="box-container">
+            <div class="box" data-aos="fade-right">
+                <img src="images/product-1.jpg" alt="image">
+                <h3>delicious food</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="price">30.00$</div>
+                <a href=""><button class="btn">add to cart</button></a>
+            </div>
+
+            <div class="box" data-aos="fade-left">
+                <img src="images/product-2.jpg" alt="image">
+                <h3>delicious dessert</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="price">40.00$</div>
+                <a href=""><button class="btn">add to cart</button></a>
+            </div>
+
+            <div class="box" data-aos="fade-right">
+                <img src="images/product-3.jpg" alt="image">
+                <h3>delicious food</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="price">50.00$</div>
+                <a href=""><button class="btn">add to cart</button></a>
+            </div>
+
+            <div class="box" data-aos="fade-left">
+                <img src="images/product-4.jpg" alt="image">
+                <h3>delicious dessert</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="price">60.00$</div>
+                <a href=""><button class="btn">add to cart</button></a>
+            </div>
+        </div>
+        
+    </section>
+    <!-- Collections Section Ends -->
+
+
+    <!-- gallery Section Starts -->
+    <section class="gallery" id="gallery">
+
+        <h1 class="heading">our food <span>gallery</span> </h1>
+
+        <div class="box-container">
+            <div class="box" data-aos="fade-up">
+                <img src="images/img1.jpg" alt="">
+                <h3>delicious food</h3>
+            </div>
+
+            <div class="box" data-aos="fade-up">
+                <img src="images/img2.jpg" alt="">
+                <h3>delicious food</h3>
+            </div>
+
+            <div class="box" data-aos="fade-up">
+                <img src="images/img3.jpg" alt="">
+                <h3>delicious food</h3>
+            </div>
+
+            <div class="box" data-aos="fade-up">
+                <img src="images/img4.jpg" alt="">
+                <h3>delicious food</h3>
+            </div>
+            
+            <div class="box" data-aos="fade-up">
+                <img src="images/img5.jpg" alt="">
+                <h3>delicious food</h3>
+            </div>
+
+            <div class="box" data-aos="fade-up">
+                <img src="images/img6.jpg" alt="">
+                <h3>delicious food</h3>
+            </div>
+            
+        </div>
+    </section>
+    <!-- gallery Section Ends -->
+
+
+    <!-- Order Section Starts -->
+    <section class="order" id="contact">
+
+        <h1 class="heading">make your <span>order</span> </h1>
+
+        <div class="row">
+            <form action="" data-aos="fade-right">
+                <input class="box" type="text" placeholder="your full name">
+                <input class="box" type="email" placeholder="your email">
+                <input class="box" type="password" placeholder="your password">
+                <input class="box" type="number" placeholder="your number">
+                <textarea class="box address" id="" cols="30" rows="10" placeholder="your address"></textarea>
+                <input type="submit" value="order now" class="btn">
+            </form>
+
+            <div class="image" data-aos="fade-left">
+                <img src="images/form-img.jpg" alt="">
+            </div>
+        </div>
+
+    </section>
+    <!-- Order Section Ends -->
+
+
+    <!-- Footer Section Starts -->
+    <footer class="footer" id="contact">
+
+        <div class="box-container">
+            <div class="box">
+                <h3>contact info</h3>
+                <p><i class="fas fa-map-marker-alt"></i>cairo, egypt</p>
+                <p><i class="fas fa-envelope"></i>sokar@gmail.com</p>
+                <p><i class="fas fa-phone"></i>+201280157117</p>
+            </div>
+
+            <div class="box">
+                <h3>branch location</h3>
+                <a href="#">egypt</a>
+                <a href="#">USA</a>
+                <a href="#">france</a>
+                <a href="#">germany</a>
+            </div>
+
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="#">home</a>
+                <a href="#">about</a>
+                <a href="#">menu</a>
+                <a href="#">collections</a>
+                <a href="#">gallery</a>
+                <a href="#">contact</a>
+            </div>
+
+            <div class="box">
+                <h3>follow us</h3>
+                <a href="#">instagram</a>
+                <a href="#">facebook</a>
+                <a href="#">twitter</a>
+                <a href="#">linkedin</a>
+                <a href="#">you tub</a>
+                
+            </div>
+
+        </div>
+
+        <div class="credit">created by <i class="fas fa-heart"></i> <a href="#">Ahmed Sokar </a>all rights reserved</div>
+
+    </footer>
+    <!-- Footer Section Ends -->
+
+    <!-- Scroll To top -->
+    <div class="up"><i class="fa-solid fa-angle-up"></i></div>
+
+    <!-- aos js CDN Link -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
+    <!-- jquery CDN Link -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    
+    <!-- Custom JS File Link -->
+    <script src="js/script.js"></script>
+    <script src="js/main.js"></script>
+
+    <!-- AOS Initialization -->
+    <script>
+        AOS.init({
+        duration: 1000,
+        delay: 400,
+        });
+    </script>
+    
+</body>
+</html>
