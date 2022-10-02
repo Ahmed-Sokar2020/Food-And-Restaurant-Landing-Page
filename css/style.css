@@ -253,7 +253,7 @@ header .navbar ul li a {
 }
 
 header .navbar ul li a.active {
-    border-bottom: 2px solid var(--green);
+    /* border-bottom: 2px solid var(--green); */
     color: var(--green);
 }
 
